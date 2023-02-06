@@ -10,6 +10,9 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
+            //to run console program press
+            //ctrl + f5
         }
     }
 }
