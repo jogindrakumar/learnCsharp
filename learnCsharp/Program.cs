@@ -10,8 +10,21 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            //to run console program press
+            //  Display variable in C#
+
+            string name = "jogindra";
+            Console.WriteLine(name);
+            //WriteLine() method is often used
+            //to display
+
+          
+
+       
+
+
+
+
+            //TO run console program press
             //ctrl + f5
         }
     }
