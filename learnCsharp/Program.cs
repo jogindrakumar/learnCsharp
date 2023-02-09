@@ -10,13 +10,12 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            //  add two number using + character
+         //  Declare many variable of the same type
 
+            
+        int x = 5 , y = 10 , z = 20 ;
 
-            int x = 5;
-            int y = 15;
-            Console.WriteLine(x + y);
-
+          Console.WriteLine(x+y+z);
        
 
 
