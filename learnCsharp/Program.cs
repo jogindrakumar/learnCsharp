@@ -10,12 +10,9 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            //  Display variable in C#
+        //  Use + character to add a variable to another
 
-            string name = "jogindra";
-            Console.WriteLine(name);
-            //WriteLine() method is often used
-            //to display
+           
 
           
 
@@ -24,7 +21,7 @@ namespace learnCsharp
 
 
 
-            //TO run console program press
+            //TO Run console program press
             //ctrl + f5
         }
     }
