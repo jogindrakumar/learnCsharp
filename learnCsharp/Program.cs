@@ -10,9 +10,12 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-        //  Use + character to add a variable to another
+            //  Use + character to add a variable to another
 
-           
+            string firstName = "jogindra";
+            string lastName = "Kumar";
+            string fullName = firstName + lastName;
+            Console.WriteLine(fullName);
 
           
 
