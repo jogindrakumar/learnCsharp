@@ -10,21 +10,24 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            //  How to declare integer Data type
+            //  How to declare Long Data type
 
 
-            // when we create variable with a
-            // numeric value
+            // This is used when int is not large
+            // enough to store the value
 
-            int myNum = 1000000;
+            long myNum = 1500000000000L;
             Console.WriteLine(myNum);
 
+            //note : that you should end the value
+           //with an "L"
 
 
 
-            
+
+
             //can store whole numbers
-            //from - 2147483648 to 2147483647
+            // from -9223372036854775808 to 9223372036854775807
             //TO Run console program press
             //ctrl + f5
         }
