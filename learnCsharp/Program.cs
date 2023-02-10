@@ -10,17 +10,21 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-         //  Declare many variable of the same type
+            //  How to declare integer Data type
+
+
+            // when we create variable with a
+            // numeric value
+
+            int myNum = 1000000;
+            Console.WriteLine(myNum);
+
+
+
 
             
-        int x = 5 , y = 10 , z = 20 ;
-
-          Console.WriteLine(x+y+z);
-       
-
-
-
-
+            //can store whole numbers
+            //from - 2147483648 to 2147483647
             //TO Run console program press
             //ctrl + f5
         }
