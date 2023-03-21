@@ -10,24 +10,22 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            //  How to declare Long Data type
+            // Else If Statement in  C#
 
+            int time = 22;
+            if(time < 10)
+            {
+                Console.WriteLine("Good morning");
 
-            // This is used when int is not large
-            // enough to store the value
-
-            long myNum = 1500000000000L;
-            Console.WriteLine(myNum);
-
-            //note : that you should end the value
-           //with an "L"
-
-
-
-
-
-            //can store whole numbers
-            // from -9223372036854775808 to 9223372036854775807
+            }else if(time < 20)
+            {
+                Console.WriteLine("good day");
+            }
+            else
+            {
+                Console.WriteLine("Good Evening");
+            }
+         
             //TO Run console program press
             //ctrl + f5
         }
