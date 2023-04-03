@@ -10,21 +10,22 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            // Else If Statement in  C#
+            // For Loop
+           // When you know exactly how many
+           // times you want to loop
+           // through a block of code
+           //use for loop 
+           //instead of while loop
 
-            int time = 22;
-            if(time < 10)
-            {
-                Console.WriteLine("Good morning");
 
-            }else if(time < 20)
+           for(int i = 0; i < 5; i++)
             {
-                Console.WriteLine("good day");
+                Console.WriteLine(i);
             }
-            else
-            {
-                Console.WriteLine("Good Evening");
-            }
+          
+            
+
+        
          
             //TO Run console program press
             //ctrl + f5
