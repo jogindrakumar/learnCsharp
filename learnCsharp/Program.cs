@@ -10,22 +10,17 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            // For Loop
-           // When you know exactly how many
-           // times you want to loop
-           // through a block of code
-           //use for loop 
-           //instead of while loop
-
-
-           for(int i = 0; i < 5; i++)
+            // C# Continue
+            for(int i = 0; i < 10;i++)
             {
+                if(i == 4)
+                {
+                    continue;
+                }
                 Console.WriteLine(i);
             }
-          
             
-
-        
+           
          
             //TO Run console program press
             //ctrl + f5
