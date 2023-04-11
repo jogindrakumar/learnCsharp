@@ -10,15 +10,19 @@ namespace learnCsharp
     {
         static void Main(string[] args)
         {
-            // C# Continue
-            for(int i = 0; i < 10;i++)
+            // Change an Array Element 
+
+            string[] cars =
             {
-                if(i == 4)
-                {
-                    continue;
-                }
-                Console.WriteLine(i);
-            }
+                "Volvo",
+                "BMW",
+                "Ford",
+                "TATA"
+            };
+            cars[0] = "NANO";
+            Console.WriteLine(cars[0]);
+           
+            
             
            
          
